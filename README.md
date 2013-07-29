@@ -9,12 +9,12 @@ Ubuntu 12.04LTS
 
 ### latest git
 
-$ sudo apt-get install -y python-software-properties
-$ sudo apt-add-repository ppa:git-core/ppa
-$ sudo apt-get update
-$ sudo sudo apt-get install -y git-core
-$ git --version
-git version 1.8.3.4 or something.
+    $ sudo apt-get install -y python-software-properties
+    $ sudo apt-add-repository ppa:git-core/ppa
+    $ sudo apt-get update
+    $ sudo sudo apt-get install -y git-core
+    $ git --version
+    git version 1.8.3.4 or something.
 
 
 ### Ruby2.0, Chef, and Berkshelf
