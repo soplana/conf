@@ -1,0 +1,11 @@
+{
+  "name" : "aerochat",
+  "description" : "Rails4 project Cookiecast (formaly aerochat)",
+  "run_list" : [ "recipe[mysql::server]",
+                 "recipe[mysql::ruby]",
+                 "recipe[aero-mysql]" ],
+  "mysql" : {
+      "server_debian_password" : "",
+      "server_root_password"   : "",
+      "server_repl_password"   : "" }
+}
