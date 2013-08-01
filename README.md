@@ -42,5 +42,4 @@ install them as root.
 Then you can run chef-solo with a role you need to cook for.
 
     # chef-solo -c solo.rb -j ./roles/aerochat.json
-    # chef-solo -c solo.rb -j ./roles/aerochat-node.json
 

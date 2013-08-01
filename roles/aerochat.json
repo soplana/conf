@@ -5,7 +5,9 @@
                  "recipe[mysql::ruby]",
                  "recipe[aero-mysql]",
                  "recipe[mongodb::10gen_repo]",
-                 "recipe[aero-mongodb]" ],
+                 "recipe[aero-mongodb]",
+                 "recipe[aerochat]",
+                 "recipe[aerochat-node]" ],
   "mysql" : {
       "server_debian_password" : "",
       "server_root_password"   : "",
