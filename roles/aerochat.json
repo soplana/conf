@@ -3,7 +3,9 @@
   "description" : "Rails4 project Cookiecast (formaly aerochat)",
   "run_list" : [ "recipe[mysql::server]",
                  "recipe[mysql::ruby]",
-                 "recipe[aero-mysql]" ],
+                 "recipe[aero-mysql]",
+                 "recipe[mongodb::10gen_repo]",
+                 "recipe[aero-mongodb]" ],
   "mysql" : {
       "server_debian_password" : "",
       "server_root_password"   : "",
