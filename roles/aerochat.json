@@ -11,5 +11,6 @@
   "mysql" : {
       "server_debian_password" : "",
       "server_root_password"   : "",
-      "server_repl_password"   : "" }
+      "server_repl_password"   : "" },
+  "npm" : { "version" : "1.2.15"  }
 }
