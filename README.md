@@ -43,3 +43,10 @@ Then you can run chef-solo with a role you need to cook for.
 
     # chef-solo -c solo.rb -j ./roles/aerochat.json
 
+
+TODO
+================================
+
+* make npm_modules available from "vagrant" user via chef.
+* run db:create, db:migrate, and db:seed tasks via chef.
+* launch aerochat-node(node) and aerochat(Rails) app via chef.
