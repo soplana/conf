@@ -21,3 +21,8 @@ mysql_database_user "aerochat" do
   privileges [:all]
   action [:create, :grant]
 end
+
+template "/etc/mysql/my.cnf" do
+  source "my.cnf.erb"
+  notifies :reload, 'service[mysql]'
+end
