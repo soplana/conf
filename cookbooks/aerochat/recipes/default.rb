@@ -10,3 +10,9 @@
 package "imagemagick" do
   action :install
 end
+
+git "/home/vagrant/work/aerochat" do
+  repository "git@github.com:soplana/aerochat.git"
+  reference "master"
+  action :sync
+end

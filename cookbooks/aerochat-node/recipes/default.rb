@@ -17,3 +17,9 @@ end
 
 npm_package "socket.io@0.9.16"
 npm_package "mongoose@3.7.0"
+
+git "/home/vagrant/work/aerochat-node" do
+  repository "git@github.com:soplana/aerochat-node.git"
+  reference "master"
+  action :sync
+end
