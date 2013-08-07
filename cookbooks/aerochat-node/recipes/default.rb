@@ -17,6 +17,7 @@ end
 
 npm_package "socket.io@0.9.16"
 npm_package "mongoose@3.7.0"
+npm_package "nodemon@0.7.10"
 
 aerochat_node_repo = "/home/vagrant/work/aerochat-node"
 
