@@ -18,8 +18,19 @@ end
 npm_package "socket.io@0.9.16"
 npm_package "mongoose@3.7.0"
 
-git "/home/vagrant/work/aerochat-node" do
+aerochat_node_repo = "/home/vagrant/work/aerochat-node"
+
+git aerochat_node_repo do
   repository "git@github.com:soplana/aerochat-node.git"
   reference "master"
   action :sync
 end
+
+### doesn't work!!
+# directory aerochat_node_repo do
+#   owner 'vagrant'
+#   group 'vagrant'
+#   mode '0755'
+#   recursive true
+#   action :create
+# end
